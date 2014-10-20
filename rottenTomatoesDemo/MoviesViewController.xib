@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MoviesViewController">
+            <connections>
+                <outlet property="dvdTabBarItem" destination="SH0-YY-pTG" id="CB3-TC-7ny"/>
+                <outlet property="movieTabBarItem" destination="eMD-Tz-VUc" id="6YH-ZH-RGE"/>
+                <outlet property="movieTypeTabBar" destination="7zT-Wn-OzK" id="yQ1-I3-Ysp"/>
+                <outlet property="moviesTableView" destination="77Z-fm-xO0" id="0XH-qI-8z1"/>
+                <outlet property="networkErrorView" destination="y3h-ht-Fpm" id="kIF-bU-jg3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="77Z-fm-xO0">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <view contentMode="scaleToFill" id="y3h-ht-Fpm">
+                    <rect key="frame" x="0.0" y="62" width="320" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Network Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="t0V-m6-Ce8">
+                            <rect key="frame" x="105" y="5" width="110" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.89236083645620834" blue="0.29352092615322634" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <tabBar contentMode="scaleToFill" barStyle="black" id="7zT-Wn-OzK">
+                    <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <items>
+                        <tabBarItem title="Movies" id="eMD-Tz-VUc"/>
+                        <tabBarItem title="DVDs" id="SH0-YY-pTG"/>
+                    </items>
+                    <color key="tintColor" red="1" green="0.74434577430000004" blue="0.2444994643" alpha="1" colorSpace="calibratedRGB"/>
+                </tabBar>
+            </subviews>
+            <color key="backgroundColor" red="0.55600795825277971" green="1" blue="0.91994773765865256" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="319" y="112"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
