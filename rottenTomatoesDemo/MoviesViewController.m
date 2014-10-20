@@ -93,7 +93,8 @@ NSString *const RottenTomatoesAPIKey = @"gd6zknyveccx6wbrxx6pkxe6";
 - (void)loadMovieData {
     self.title = @"Movies";
     NSURL *url = [NSURL URLWithString:@"http://api.rottentomatoes.com/api/public/v1.0/lists/movies/box_office.json?apikey=gd6zknyveccx6wbrxx6pkxe6&limit=30&country=us"];
-    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
+    request.timeoutInterval = 5.0;
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         
         // Show error if request fails

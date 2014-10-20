@@ -51,7 +51,7 @@
     [self.posterImageView setImageWithURL:thumbnailPosterURL];
     [self.posterImageView setImageWithURL:highResPosterURL];
     
-    self.scrollView.contentSize = CGSizeMake(320, 500);
+    self.scrollView.contentSize = CGSizeMake(320, 600);
 }
 
 - (void)didReceiveMemoryWarning {
