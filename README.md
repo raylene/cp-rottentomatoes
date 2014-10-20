@@ -5,7 +5,7 @@ This is a movies app displaying movies and DVDs using the [Rotten Tomatoes API](
 Displayed movies = box office movies.
 Displayed DVDs = current releases.
 
-Time spent: 6hr
+Time spent: 7hr
 
 ### Features
 
@@ -29,7 +29,6 @@ Time spent: 6hr
 
 ### Walkthrough
 
-Walkthrough, Sunday 10pm
 * Basic features: http://i.imgur.com/eNPzXzr.gif
 * Network error: http://i.imgur.com/7X7NrRz.gif
 * Fixed movie detail view: http://i.imgur.com/mreCleV.gif
