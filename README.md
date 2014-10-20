@@ -32,9 +32,11 @@ Time spent: 6hr
 Walkthrough, Sunday 10pm
 * Basic features: http://i.imgur.com/eNPzXzr.gif
 * Network error: http://i.imgur.com/7X7NrRz.gif
+* Fixed movie detail view: http://i.imgur.com/mreCleV.gif
 
 ![Video Basic](http://i.imgur.com/eNPzXzr.gif)
 ![Video Network Error](http://i.imgur.com/7X7NrRz.gif)
+![Video Movie Detail View](http://i.imgur.com/mreCleV.gif)
 
 Credits
 ---------

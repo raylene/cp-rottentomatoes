@@ -12,22 +12,34 @@
 	<dict>
 		<key>3256A0224AFC2B08A13EE1851FAEFEC00A441A40</key>
 		<string>https://github.com/raylene/test-codepath</string>
+		<key>C394F6A517145D47AAE1D3A2C4494E90266939F7</key>
+		<string>https://github.com/raylene/cp-rottentomatoes.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>rottenTomatoesDemo/rottenTomatoesDemo.xcworkspace</string>
+	<string>rottenTomatoesDemo.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3256A0224AFC2B08A13EE1851FAEFEC00A441A40</key>
-		<string>../..</string>
+		<string>../../test-codepath</string>
+		<key>C394F6A517145D47AAE1D3A2C4494E90266939F7</key>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/raylene/test-codepath</string>
+	<string>https://github.com/raylene/cp-rottentomatoes.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3256A0224AFC2B08A13EE1851FAEFEC00A441A40</string>
+	<string>C394F6A517145D47AAE1D3A2C4494E90266939F7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C394F6A517145D47AAE1D3A2C4494E90266939F7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rottentomatoes</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

@@ -19,19 +19,19 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="mVh-xV-SxL">
-                    <rect key="frame" x="0.0" y="66" width="320" height="502"/>
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.90000000000000002" contentMode="scaleToFill" id="wET-0a-TiS">
-                    <rect key="frame" x="0.0" y="369" width="320" height="300"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="wET-0a-TiS">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
                         <view alpha="0.89999999999999991" contentMode="scaleToFill" id="4eA-jN-QIg">
-                            <rect key="frame" x="0.0" y="8" width="320" height="300"/>
+                            <rect key="frame" x="0.0" y="384" width="320" height="600"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Synopsis" id="Ben-Cs-iqC">
-                                    <rect key="frame" x="8" y="50" width="304" height="600"/>
+                                    <rect key="frame" x="8" y="57" width="304" height="600"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <accessibility key="accessibilityConfiguration">
                                         <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
@@ -41,16 +41,16 @@
                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 </textView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Myh-bE-yt0">
-                                    <rect key="frame" x="13" y="-2" width="297" height="44"/>
+                                    <rect key="frame" x="13" y="5" width="297" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="highlightedColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
                                 </label>
                             </subviews>
+                            <color key="backgroundColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
                 </scrollView>
             </subviews>
             <color key="backgroundColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>

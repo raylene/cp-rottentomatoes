@@ -25,7 +25,9 @@
     self.title = self.movieData[@"title"];
     self.titleLabel.text = self.movieData[@"title"];
     self.synopsisText.text = self.movieData[@"synopsis"];
-    
+
+    self.scrollView.contentSize = CGSizeMake(320, 1000);
+
     // Low-res url
     NSString *thumbnailPosterString = [self.movieData valueForKeyPath:@"posters.thumbnail"];
     NSURL *thumbnailPosterURL = [NSURL URLWithString:thumbnailPosterString];
@@ -50,8 +52,6 @@
     // ^Is this better than just sending 2 requests to setImageWith URL?
     [self.posterImageView setImageWithURL:thumbnailPosterURL];
     [self.posterImageView setImageWithURL:highResPosterURL];
-    
-    self.scrollView.contentSize = CGSizeMake(320, 600);
 }
 
 - (void)didReceiveMemoryWarning {
